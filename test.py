@@ -1,9 +1,12 @@
+#pandas and geopy practice not for assignment.
+
 #Importing the required modules
 import pandas as pd
 import geopy.distance as dist
 from geopy.geocoders import Nominatim
-from geopy.extra.rate_limiter import RateLimiter
- 
+from geopy.extra.rate_limiter import RateLimiter 
+
+
 #Creating a dataframe with address of locations we want to reterive
 locat = ['Saint Louis, Missouri' , 'Chicago, Illinois',\
          'Columbus, Ohio' , 'Pittsburgh, Pensylvania','Seattle, Washington']
